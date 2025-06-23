@@ -2,10 +2,11 @@
 agp = "8.10.1"
 converterMoshi = "2.11.0"
 hiltAndroidCompiler = "2.44"
-kotlin = "2.0.21"
+kotlin = "1.9.10"
 coreKtx = "1.16.0"
 junit = "5.0-SNAPSHOT"
 junitVersion = "1.2.1"
+
 espressoCore = "3.6.1"
 kotlinxCoroutinesAndroid = "1.10.2"
 kotlinxCoroutinesCore = "1.10.2"
