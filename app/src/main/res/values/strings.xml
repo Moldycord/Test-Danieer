@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="character_gender_label">Gender</string>
+
+    <string name="error_label">Error</string>
+    <string name="retry_label">Retry</string>
+
+</resources>
