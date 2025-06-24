@@ -34,6 +34,7 @@ fun AllCharacters(
     val spacing16Dp = dimensionResource(R.dimen.spacing_large)
     val spacing8dp = dimensionResource(R.dimen.spacing_medium)
 
+    viewModel.getAllCharacters()
     Column(
         modifier = Modifier
             .fillMaxSize()

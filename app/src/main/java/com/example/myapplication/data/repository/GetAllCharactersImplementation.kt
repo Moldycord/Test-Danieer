@@ -18,6 +18,7 @@ class GetAllCharactersImplementation @Inject constructor(
             val response = service.getAllCharacters().toDomain()
             emit(Result.success(response))
         } catch (error: Exception) {
+            error.printStackTrace()
             emit(Result.failure(error))
         }
     }.flowOn(Dispatchers.IO)
